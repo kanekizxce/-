@@ -1,0 +1,66 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+@font-face {
+ 	font-family: amogus;
+ 	src: url(../fonts/Neocyr.ttf);
+}
+main {
+	width: 70%;
+	padding: 50px;
+	margin: auto;
+	background-color: #efefef;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	box-shadow: 0 0 10px 1px rgba(0,0,0,0.2);
+}
+body {
+	background-color: #efefef;
+	font-family: amogus;
+}
+.photo {
+	width: calc(50% - 40px);
+	height: calc((35vw - 40px) / 16 * 9);
+	margin: 10px;
+	background-color: orange;
+	background-position: center;
+	background-size: cover; 
+	transition: all 10.5s ease;
+
+}
+.photo:hover {
+    transform: rotate(3deg) scale(1.07);
+    box-shadow: 0 0 10px 1px rgba(0,0,0,0.4);
+ }
+h1 {
+	width: 100%;
+	text-align: center;
+	font-size: 48px;
+}
+.photo1 {
+	background-image: url(../img/1.jpg);
+}
+.photo2 {
+	background-image: url(../img/2.jpg);
+}
+.photo3 {
+	background-image: url(../img/3.jpg);
+}
+.photo4 {
+	background-image: url(../img/4.jpg);
+}
+.photo5 {
+	background-image: url(../img/5.jpg);
+}
+.photo6 {
+	background-image: url(../img/6.jpg);
+}
+.photo7 {
+	background-image: url(../img/7.jpg);
+}
+.photo8 {
+	background-image: url(../img/8.jpg);
+}
